@@ -1,5 +1,4 @@
 *** Settings ***
-Documentation  sample robot program
 Library        SeleniumLibrary
 
 
@@ -13,6 +12,4 @@ opening browser test
     [documentation]  this test perform basic functionality of opening a browser
     [tags]  functional
     open browser              ${url}                  ${browser}
-
-closing browser
     close browser
