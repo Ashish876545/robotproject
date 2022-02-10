@@ -12,4 +12,4 @@ opening browser test
     [documentation]  this test perform basic functionality of opening a browser
     [tags]  functional
     open browser              ${url}                  ${browser}
-   close browser
+  # close browser
